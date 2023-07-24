@@ -831,8 +831,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     list-style: none;
-    text-align: center;
-    width: 100%; }
+    margin: 0 auto;
+    width: max-content; }
   
   .navigation__item {
     margin: 1rem; 
