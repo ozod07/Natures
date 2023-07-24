@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    padding: 50px;
 }
 .main{
     display: flex;
@@ -17,6 +18,8 @@ body{
 .block:hover{
     background-color: rgb(67, 61, 61);
     cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
 }
 .block:hover .body{
      cursor: pointer;
