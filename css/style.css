@@ -663,7 +663,7 @@
         .footer__logo-box {
           margin-bottom: 6rem; } }
     .footer__logo {
-      width: 15rem;
+      max-width: 15rem;
       height: auto; }
     .footer__navigation {
       border-top: 1px solid #777;
