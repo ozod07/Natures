@@ -38,3 +38,8 @@ img{
     height: 220px;
     border-radius: 15px;
 }
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
