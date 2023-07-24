@@ -84,6 +84,7 @@
         .heading-primary--main {
           letter-spacing: 1rem;
           letter-spacing: 5px;
+          font-size: 40px;
           font-family: 5rem; } }
     .heading-primary--sub {
       display: block;
