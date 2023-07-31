@@ -1,3 +1,4 @@
+
 .attractions{
     box-sizing: border-box;
     border: 1px solid white;
@@ -16,20 +17,23 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap:1%;
 }
 .blog{
     width: 320px;
     margin-top: 35px;
-    border: 1px solid rgb(217, 214, 214);
+    border: 2px solid rgb(217, 214, 214);
     padding-top: 10px;
     gap: 15px;
     text-align: center;
     column-gap: 25px;
     transition-duration: 1s;
     padding-bottom: 25px;
+    
 }
 .blog:hover{
     transform: scale(1.05);
+    border-color: green;
 }
 .blog img{
     width: 280px;
@@ -40,7 +44,7 @@
     font-family: sans-serif;
 }
 .blog button{
-    width: 120px;
+    width: 110px;
     height: 40px;
     background-color: rgb(55, 181, 55);
     border-color: rgb(55, 181, 55);
